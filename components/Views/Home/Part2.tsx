@@ -107,7 +107,7 @@ const StyledLi = styled.li`
   margin-left: 18px;
 `
 
-const JumpTo = styled.div`
+const JumpTo = styled.a`
   cursor: pointer;
   padding: 0 30px 0 20px;
   height: 56px;
@@ -188,7 +188,7 @@ const Part2: React.FC<React.PropsWithChildren> = () => {
                   <StyledLi>{t('home_part2_list3')}</StyledLi>
                   <StyledLi>{t('home_part2_list4')}</StyledLi>
                 </LeftText>
-                <JumpTo>
+                <JumpTo href={'https://www.equityswap.club/'} target={'_blank'}>
                   <StyledP>{t('home_part2_jumpTo')}</StyledP>
                   <Go>{'➔'}</Go>
                 </JumpTo>
