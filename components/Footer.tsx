@@ -150,7 +150,7 @@ const Footer: React.FC<React.PropsWithChildren> = () => {
             <Column>
               <ColumnTitle>{t('home_footer_about')}</ColumnTitle>
               {/* <ColumnSpan>{'Team'}</ColumnSpan> */}
-              <ColumnSpan href={'https://medium.com/@PeopleEquity'} target={'_blank'}>{'Bloge'}</ColumnSpan>
+              <ColumnSpan href={'https://medium.com/@PeopleEquity'} target={'_blank'}>{'Blog'}</ColumnSpan>
               {/* <ColumnSpan>{'Careers'}</ColumnSpan> */}
             </Column>
             <Column>

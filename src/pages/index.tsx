@@ -13,6 +13,11 @@ export default function Home() {
         <title>People Equity</title>
         <meta name="description" content="PeopleEquity is the redesigner of value distribution in Web3 by enabling users to earn labor and equity income through production relations protocol stack, and providing decentralized credit system to drive on-chain businesses." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="twitter:image" content="https://p.ipic.vip/c7tczk.png" />
+        <meta
+            name="twitter:description"
+            content="PeopleEquity is the redesigner of value distribution in Web3 by enabling users to earn labor and equity income through production relations protocol stack, and providing decentralized credit system to drive on-chain businesses."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main style={{
