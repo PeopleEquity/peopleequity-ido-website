@@ -150,7 +150,7 @@ const Footer: React.FC<React.PropsWithChildren> = () => {
             <Column>
               <ColumnTitle>{t('home_footer_about')}</ColumnTitle>
               {/* <ColumnSpan>{'Team'}</ColumnSpan> */}
-              <ColumnSpan href={'https://medium.com/@PeopleEquity'} target={'_blank'}>{'Blog'}</ColumnSpan>
+              <ColumnSpan href={'https://medium.com/@PeopleEquity'} target={'_blank'}>{'Medium'}</ColumnSpan>
               {/* <ColumnSpan>{'Careers'}</ColumnSpan> */}
             </Column>
             <Column>
@@ -160,8 +160,9 @@ const Footer: React.FC<React.PropsWithChildren> = () => {
             <Column>
               <ColumnTitle>{t('home_footer_community')}</ColumnTitle>
               {/* <ColumnSpan>{'Telegram'}</ColumnSpan> */}
-              <ColumnSpan href={'https://discord.gg/jD5qVGBcqm'} target={'_blank'}>{'Discord'}</ColumnSpan>
               <ColumnSpan href={'https://twitter.com/PeopleEquity_'} target={'_blank'}>{'Twitter'}</ColumnSpan>
+              <ColumnSpan href={'https://discord.gg/jD5qVGBcqm'} target={'_blank'}>{'Discord'}</ColumnSpan>
+              <ColumnSpan href={'https://t.me/+C603Be0HU9EwMmIx'} target={'_blank'}>{'Telegram'}</ColumnSpan>
             </Column>
           </Right>
         </Inner>
